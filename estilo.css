@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(Recursos/Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(Recursos/Fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: LouisGeorge;
+    src: url(Recursos/Fonts/Louis-George.ttf);
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(Recursos/1c11240f39d76c1de7ca49debc460b7c.gif);
+background-repeat:initial;
+
+}
+
+.logear{
+width: 30vw;
+height: 80vh;
+background-color: rgb(255, 255, 255);
+border-radius: 5%;
+margin-top: 5%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.texto{
+margin-top: 5vh;
+}
+
+h1{
+    font-family: Roboto-Medium;
+    text-align: center;
+    align-items: center;
+}
+
